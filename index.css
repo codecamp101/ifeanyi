@@ -117,11 +117,25 @@ input{
     /* border: 1px solid yellow; */
     background-color: #222;
     border-radius: 8px;
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin: 3em 0;
+    align-items: center;
+    justify-content: center;
+    /* background-image: url('confetti.gif'); */
+    background-repeat:no-repeat ;
+    background-position: top;
+    background-size: 80%;
 
 }
-   #panel.on{
+#panel.on{
     opacity: 1;
-   }    
+}
+#panel.bgi{
+    background-image: url('confetti.gif'); 
+}
 #start{
     height: 4em;
     width: 4em;
@@ -140,4 +154,18 @@ input{
     width: 50%;
     border: 2px solid #fff;
     border-radius: 50%;
+}
+#flag{
+    background-image: url('nigerian_flag.png');
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: center;
+    width: 2em;
+    height: 1em;
+}
+#age{
+    font-size: 400%;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(to right,rgb(235, 40, 40) 100%, #333 0%);
+    background-clip: text;
 }

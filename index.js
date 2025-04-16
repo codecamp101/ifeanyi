@@ -13,7 +13,6 @@ const fm=document.querySelector('form');
 const pop=document.querySelector('#pop');
 const user=document.querySelector('#user');
 const start=document.querySelector('#start');
-
 const pan = document.querySelector('#panel');
 
 eye.addEventListener('mousedown', () =>{
@@ -42,4 +41,31 @@ fm.addEventListener('submit' , (e) =>{
 //this shows/hides the #panel
 start.addEventListener('click', () => {
     pan.classList.toggle('on');
-});
+})
+// this formates a -uninx number into a human-readable number
+const dob = new Date('10/9/2013').getTime(); // date format in javascript mm-dd-yyyy
+pan.querySelector('#dob').textContent= Intl.DateTimeFormat('en-us', {datestyle: 'full'}).format(dob);
+//FUNCTIONS
+// A FUNCTION is a group of statment that does not run unless when called
+function calculator () {
+ console.log( 2 + 4);
+ console.log( 10 - 5);
+ console.log(10 / 2 );
+ console.log( 3 * 3 );
+ console.log(10 % 2 ); //moluds (short from is mod): the remandier of division => No.% No 
+} 
+ calculator();
+ function mydate () {
+    /*
+    const t = "ME";
+    const u = "YOU";
+    console.log(t + u ); // concatenation
+    */
+   const d = new Date("10/9/2013").getDate();
+   const m = new Date("10/9/2013").getMonth();
+   const today = Date.now();
+   if (new Date(today).getDate()=== d && new Date(today).getMonth() === m) {
+    pan.classList('bgi');
+   } 
+}
+ callConfeti();
