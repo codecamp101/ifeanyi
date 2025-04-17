@@ -71,7 +71,7 @@ body {
     height: 3em;
     width: 3em;
     /* border: 1px solid red; */
-    background-image: url(bulb-outline.svg);
+    background-image: url(bulb-outline\ \(3\).svg);
 }
 
 #txt {
@@ -109,9 +109,10 @@ body {
 #restartBtn {
     height: 4em;
     width: 4em;
+    /* border: 1px solid blue; */
     transition: box-shadow .5s;
     border-radius: 7px;
-    background-image: url(refresh-outline.svg);
+    background-image: url(refresh-outline\ \(2\).svg);
 }
 
 #restartBtn:hover {
@@ -125,7 +126,7 @@ body {
     /* border: 1px solid blue; */
     transition: box-shadow .5s;
     border-radius: 7px;
-    background-image: url(help-circle-outline.svg);
+    background-image: url(help-circle-outline\ \(2\).svg)
 }
 
 #hintBtn:hover {
@@ -162,14 +163,11 @@ body {
     height: 4em;
     width: 4em;
     /* border: 1px solid red; */
-    background-image: url(arrow-forward-outline.svg);
+    background-image: ();
 }
 
 #cup {
     height: 4em;
     width: 4em;
-    background-image: url(trophy-outline.svg); 
-}
-#checkbtn span{
-    background-image: arrow-forward;
+    background-image: url(trophy-outline\ \(2\).svg); 
 }
