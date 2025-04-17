@@ -126,7 +126,7 @@ body {
     /* border: 1px solid blue; */
     transition: box-shadow .5s;
     border-radius: 7px;
-    background-image: url(help-circle-outline\ \(2\).svg)
+    background-image: url(help-circle-outline\ \(3\).svg)
 }
 
 #hintBtn:hover {
@@ -138,17 +138,18 @@ body {
     align-items: center;
     justify-content: center;
     gap: 2em;
+    background-image: url(error_fawzi_mourad.gif);
 }
 
 #checkBtn {
-    border-radius: 2em;
+    border-radius: 3em;
     /* border: 1px solid red; */
     background-color: #8b008b;
-    background-image: url();
     display: flex;
     align-items: center;
     padding-left: 2em;
     letter-spacing: 3px;
+    margin:-left-auto;
 }
 
 #checkBtn > span {
@@ -158,6 +159,7 @@ body {
     font-size: 110%;
     font-weight: 500;
 }
+ 
 
 #checkBtn > i {
     height: 4em;
